@@ -152,13 +152,13 @@ with detection_graph.as_default():
                  s.starttls() 
 
 # Authentication 
-                 s.login("cserockers01@gmail.com","pythonproject") 
+                 s.login("from@gmail.com","from_password") 
 
                  message = ("Drone is entered into our Area  !!! By Camera - 6")
 
                  
                  client.publish(PhoneNumber="+918778479731", Message="Drone is entered into our Area!!! By, Camera-6")
-                 s.sendmail("cserockers01@gmail.com", "tsatnj@gmail.com", message) 
+                 s.sendmail("from@gmail.com", "to@gmail.com", message) 
                  print("Mail & SMS Alert Sent")
 # terminating the session 
                  s.quit() 
