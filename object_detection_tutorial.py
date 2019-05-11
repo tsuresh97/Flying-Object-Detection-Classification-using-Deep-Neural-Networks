@@ -37,8 +37,8 @@ import matplotlib.pyplot as plt
 sys.path.append("..")
 client = boto3.client(
     "sns",
-    aws_access_key_id="AKIAJCJDVJ6FQJKSZYDA",
-    aws_secret_access_key="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",
+    aws_access_key_id="XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    aws_secret_access_key="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     region_name="eu-west-1"
 )
 
